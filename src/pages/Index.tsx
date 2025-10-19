@@ -138,11 +138,6 @@ const Index = () => {
             <span className="text-xl font-heading font-bold text-foreground">OnliMeet</span>
           </div>
           <p>© 2025 OnliMeet. Все права защищены.</p>
-          <div className="flex gap-6">
-            <a href="#" className="hover:text-primary transition-colors">Конфиденциальность</a>
-            <a href="#" className="hover:text-primary transition-colors">Условия</a>
-            <a href="#" className="hover:text-primary transition-colors">Cookies</a>
-          </div>
         </div>
       </footer>
     </div>
