@@ -13,7 +13,7 @@ const Index = () => {
           <span className="text-2xl font-heading font-bold text-foreground">OnliMeet</span>
         </div>
         <nav className="hidden md:flex gap-8">
-          <a href="#download" className="text-muted-foreground hover:text-primary transition-colors">Скачать</a>
+          <a href="https://m1.nandbox.ca/v1/AUTH_137b624a8e434c4e88e9be30fa5e7bed/appprod/onlimeet-1.1.2.apk?temp_url_sig=d776e1ae3751b9ed0837772b9fe4bc2d540cb9bf&temp_url_expires=2077102292" download className="text-muted-foreground hover:text-primary transition-colors">Скачать</a>
         </nav>
       </header>
 
