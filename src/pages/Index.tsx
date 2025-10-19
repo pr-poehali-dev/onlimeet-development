@@ -140,10 +140,7 @@ const Index = () => {
                 <Icon name="Smartphone" className="mr-2" size={20} />
                 Google Play
               </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-base px-8">
-                <Icon name="Monitor" className="mr-2" size={20} />
-                Веб-версия
-              </Button>
+
             </div>
           </div>
         </div>
