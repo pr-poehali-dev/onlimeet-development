@@ -26,9 +26,11 @@ const Index = () => {
               Быстро, безопасно, удобно.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-base px-8">
-                <Icon name="Download" className="mr-2" size={20} />
-                Скачать приложение
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-base px-8" asChild>
+                <a href="https://m1.nandbox.ca/v1/AUTH_137b624a8e434c4e88e9be30fa5e7bed/appprod/onlimeet-1.1.2.apk?temp_url_sig=d776e1ae3751b9ed0837772b9fe4bc2d540cb9bf&temp_url_expires=2077102292" download>
+                  <Icon name="Download" className="mr-2" size={20} />
+                  Скачать приложение
+                </a>
               </Button>
             </div>
           </div>
