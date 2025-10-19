@@ -59,7 +59,7 @@ const Index = () => {
             <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mb-6">
               <Icon name="Video" className="text-primary" size={28} />
             </div>
-            <h3 className="text-xl font-heading font-semibold mb-3">Видеозвонки HD</h3>
+            <h3 className="text-xl font-heading font-semibold mb-3">Звонки</h3>
             <p className="text-muted-foreground">
               Кристально чистое видео и звук. Созванивайтесь с командой или один на один.
             </p>
