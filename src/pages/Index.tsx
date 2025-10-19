@@ -13,12 +13,8 @@ const Index = () => {
           <span className="text-2xl font-heading font-bold text-foreground">OnliMeet</span>
         </div>
         <nav className="hidden md:flex gap-8">
-          <a href="#features" className="text-muted-foreground hover:text-primary transition-colors">Возможности</a>
           <a href="#download" className="text-muted-foreground hover:text-primary transition-colors">Скачать</a>
         </nav>
-        <Button className="bg-primary hover:bg-primary/90">
-          Войти
-        </Button>
       </header>
 
       <section className="container mx-auto px-4 py-20 md:py-32">
@@ -37,54 +33,14 @@ const Index = () => {
                 <Icon name="Download" className="mr-2" size={20} />
                 Скачать приложение
               </Button>
-              <Button size="lg" variant="outline" className="text-base px-8">
-                <Icon name="Play" className="mr-2" size={20} />
-                Смотреть демо
-              </Button>
             </div>
           </div>
-          <div className="relative animate-scale-in">
-            <div className="bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl p-8 backdrop-blur-sm border border-primary/20">
-              <div className="bg-white rounded-2xl p-6 shadow-2xl">
-                <div className="flex items-center gap-3 mb-6 pb-4 border-b">
-                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
-                    <Icon name="User" className="text-primary" size={24} />
-                  </div>
-                  <div>
-                    <div className="font-semibold">Анна Смирнова</div>
-                    <div className="text-sm text-muted-foreground flex items-center gap-1">
-                      <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                      Онлайн
-                    </div>
-                  </div>
-                </div>
-                <div className="space-y-3">
-                  <div className="flex justify-end">
-                    <div className="bg-primary text-primary-foreground rounded-2xl rounded-tr-sm px-4 py-3 max-w-[80%]">
-                      Привет! Созвонимся через 5 минут?
-                    </div>
-                  </div>
-                  <div className="flex justify-start">
-                    <div className="bg-muted rounded-2xl rounded-tl-sm px-4 py-3 max-w-[80%]">
-                      Конечно! Жду звонка 📞
-                    </div>
-                  </div>
-                  <div className="flex justify-start">
-                    <div className="bg-secondary/10 rounded-2xl px-4 py-3 flex items-center gap-3">
-                      <Icon name="Mic" className="text-secondary" size={20} />
-                      <div className="flex gap-1 items-center">
-                        <div className="w-1 h-3 bg-secondary rounded-full"></div>
-                        <div className="w-1 h-5 bg-secondary rounded-full"></div>
-                        <div className="w-1 h-4 bg-secondary rounded-full"></div>
-                        <div className="w-1 h-6 bg-secondary rounded-full"></div>
-                        <div className="w-1 h-3 bg-secondary rounded-full"></div>
-                      </div>
-                      <span className="text-sm text-muted-foreground">0:03</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="relative animate-scale-in flex justify-center">
+            <img 
+              src="https://cdn.poehali.dev/files/59e532f0-0fea-4ed9-b891-639abc5180ab.png" 
+              alt="OnliMeet Logo" 
+              className="w-72 h-72 md:w-96 md:h-96 object-contain"
+            />
           </div>
         </div>
       </section>
@@ -178,12 +134,6 @@ const Index = () => {
         <div className="bg-gradient-to-br from-primary to-secondary rounded-3xl p-12 md:p-16 text-center text-white relative overflow-hidden">
           <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4xIj48cGF0aCBkPSJNMzYgMzRjMC0yLjIxIDEuNzktNCA0LTRzNCAxLjc5IDQgNC0xLjc5IDQtNCA0LTQtMS43OS00LTR6bTAgMTBjMC0yLjIxIDEuNzktNCA0LTRzNCAxLjc5IDQgNC0xLjc5IDQtNCA0LTQtMS43OS00LTR6TTIwIDM0YzAtMi4yMSAxLjc5LTQgNC00czQgMS43OSA0IDQtMS43OSA0LTQgNC00LTEuNzktNC00em0wIDEwYzAtMi4yMSAxLjc5LTQgNC00czQgMS43OSA0IDQtMS43OSA0LTQgNC00LTEuNzktNC00eiIvPjwvZz48L2c+PC9zdmc+')] opacity-20"></div>
           <div className="relative z-10">
-            <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">
-              Начните общаться прямо сейчас
-            </h2>
-            <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-              Присоединяйтесь к миллионам пользователей, которые выбрали OnliMeet
-            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" className="bg-white text-primary hover:bg-white/90 text-base px-8 font-semibold">
                 <Icon name="Smartphone" className="mr-2" size={20} />
@@ -203,44 +153,13 @@ const Index = () => {
       </section>
 
       <footer className="container mx-auto px-4 py-12 border-t">
-        <div className="grid md:grid-cols-4 gap-8 mb-8">
-          <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <Icon name="MessageCircle" className="text-white" size={18} />
-              </div>
-              <span className="text-xl font-heading font-bold">OnliMeet</span>
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
+          <div className="flex items-center gap-2">
+            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
+              <Icon name="MessageCircle" className="text-white" size={18} />
             </div>
-            <p className="text-muted-foreground text-sm">
-              Современный мессенджер для деловой и личной коммуникации
-            </p>
+            <span className="text-xl font-heading font-bold text-foreground">OnliMeet</span>
           </div>
-          <div>
-            <h4 className="font-heading font-semibold mb-4">Продукт</h4>
-            <ul className="space-y-2 text-muted-foreground text-sm">
-              <li><a href="#" className="hover:text-primary transition-colors">Возможности</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Безопасность</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Тарифы</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="font-heading font-semibold mb-4">Компания</h4>
-            <ul className="space-y-2 text-muted-foreground text-sm">
-              <li><a href="#" className="hover:text-primary transition-colors">О нас</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Карьера</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Контакты</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="font-heading font-semibold mb-4">Поддержка</h4>
-            <ul className="space-y-2 text-muted-foreground text-sm">
-              <li><a href="#" className="hover:text-primary transition-colors">Справка</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">API</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Статус</a></li>
-            </ul>
-          </div>
-        </div>
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-8 border-t text-sm text-muted-foreground">
           <p>© 2024 OnliMeet. Все права защищены.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-primary transition-colors">Конфиденциальность</a>
