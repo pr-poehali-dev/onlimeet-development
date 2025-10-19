@@ -36,7 +36,7 @@ const Index = () => {
             <img 
               src="https://cdn.poehali.dev/files/59e532f0-0fea-4ed9-b891-639abc5180ab.png" 
               alt="OnliMeet Logo" 
-              className="w-72 h-72 md:w-96 md:h-96 object-contain my-[1px]"
+              className="w-72 h-72 md:w-96 md:h-96 object-contain my-[1px] rounded-sm"
             />
           </div>
         </div>
