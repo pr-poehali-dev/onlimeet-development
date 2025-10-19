@@ -20,10 +20,7 @@ const Index = () => {
       <section className="container mx-auto px-4 py-20 md:py-32">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in">
-            <h1 className="text-5xl md:text-6xl font-heading font-bold text-foreground leading-tight">
-              Общайтесь
-              <span className="block text-primary">без границ</span>
-            </h1>
+            <h1 className="text-5xl md:text-6xl font-heading font-bold text-foreground leading-tight my-0 px-0 py-0 mx-0">"OnliMeet" </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
               OnliMeet — это мессенджер нового поколения для делового и личного общения. 
               Быстро, безопасно, удобно.
@@ -39,7 +36,7 @@ const Index = () => {
             <img 
               src="https://cdn.poehali.dev/files/59e532f0-0fea-4ed9-b891-639abc5180ab.png" 
               alt="OnliMeet Logo" 
-              className="w-72 h-72 md:w-96 md:h-96 object-contain"
+              className="w-72 h-72 md:w-96 md:h-96 object-contain my-[1px]"
             />
           </div>
         </div>
