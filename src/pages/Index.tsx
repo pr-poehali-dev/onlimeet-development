@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Icon from "@/components/ui/icon";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 
 const Index = () => {
   return (
@@ -14,6 +15,30 @@ const Index = () => {
         </div>
         <nav className="hidden md:flex gap-8">
           <a href="https://m1.nandbox.ca/v1/AUTH_137b624a8e434c4e88e9be30fa5e7bed/appprod/onlimeet-1.1.2.apk?temp_url_sig=d776e1ae3751b9ed0837772b9fe4bc2d540cb9bf&temp_url_expires=2077102292" download className="text-muted-foreground hover:text-primary transition-colors">Скачать</a>
+          <Dialog>
+            <DialogTrigger asChild>
+              <button className="text-muted-foreground hover:text-primary transition-colors">Разработчик</button>
+            </DialogTrigger>
+            <DialogContent className="sm:max-w-md">
+              <DialogHeader>
+                <DialogTitle className="text-2xl font-heading font-bold text-center">Разработчик</DialogTitle>
+              </DialogHeader>
+              <div className="space-y-6 py-4">
+                <div className="space-y-2">
+                  <h3 className="text-lg font-semibold text-foreground">Яргунов Роман В.</h3>
+                  <p className="text-muted-foreground">Дата создания: <span className="text-foreground font-medium">19.10.2025</span></p>
+                </div>
+                <div className="pt-4">
+                  <Button asChild className="w-full bg-primary hover:bg-primary/90">
+                    <a href="https://t.me/skzry" target="_blank" rel="noopener noreferrer">
+                      <Icon name="Send" className="mr-2" size={20} />
+                      Написать в Telegram
+                    </a>
+                  </Button>
+                </div>
+              </div>
+            </DialogContent>
+          </Dialog>
         </nav>
       </header>
 
