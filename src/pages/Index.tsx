@@ -133,10 +133,7 @@ const Index = () => {
           <div className="relative z-10">
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
 
-              <Button size="lg" variant="secondary" className="bg-white text-primary hover:bg-white/90 text-base px-8 font-semibold">
-                <Icon name="Smartphone" className="mr-2" size={20} />
-                Google Play
-              </Button>
+
 
             </div>
           </div>
